@@ -1,0 +1,94 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 50;
+  background-color: #e9f7f4;
+}
+
+h1 {
+  color: #1d8f81;
+  font-size: 20px;
+}
+
+h2 {
+  margin-top: 1px;
+  color: #07000d;
+  font-size: 17px;
+}
+
+p {
+  font-size: 15px;
+  margin: 20px;
+}
+
+.buttom-contact {
+  text-decoration: none;
+  padding: 5px;
+  background-color: #512280;
+  color: #e9f7f4;
+  border-radius: 4px;
+}
+
+.buttom-contact:hover {
+  background-color: #c0aad6;
+  color: #280f3d;
+}
+
+.img-circle {
+  padding: 4;
+  border-radius: 50%;
+}
+
+.icon-socialmedia {
+  font-size: 30px;
+  color: #1d8f81;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.icon-socialmedia:hover {
+  color: #074941;
+}
+
+.inline-list {
+  display: inline;
+  list-style: none;
+  padding-left: 0;
+}
+
+.inline-list li {
+  display: inline;
+  text-align: center;
+}
+
+.card-white {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px #64d1cc99;
+  text-align: center;
+  margin: 20px;
+}
+
+#boxes {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
